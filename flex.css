@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 80%;
+    background-color: rgba(255, 217, 0, 0.534);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    border: 3px;
+    border-radius: 10px;
+    background-color: cyan;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url('https://oyster.ignimgs.com/mediawiki/apis.ign.com/league-of-legends/2/22/New_Rift.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
