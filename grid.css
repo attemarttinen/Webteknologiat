@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: crimson;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+}
+
+.main {
+    grid-area: main;
+    background-color: darkkhaki;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: violet;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: aqua;
+    text-align: center;
+}
+
+.h1 h2 h3 {
+    text-align: center;
+}
