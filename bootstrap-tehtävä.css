@@ -1,0 +1,19 @@
+.col-12 {
+    background-color: pink;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/aesthetic-pastel-pink-background-rainbow-sky-with-glitter-design-vector_53876-156332.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card-body {
+    background-color: pink;
+}
